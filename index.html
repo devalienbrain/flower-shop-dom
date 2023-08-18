@@ -33,102 +33,102 @@
               <img src="./images/flower-img (1).png" alt="" class="box-img" />
             </figure>
             <div class="card-body">
-              <h2 class="card-title text-2xl font-bold">Snow white</h2>
+              <h2 class="card-title text-2xl font-bold">Sada Fool</h2>
               <p>I love flowers. It is the scent of man's life.</p>
 
-              <p>Price: <span>49</span>$</p>
+              <p>Price: <span>10</span>$</p>
               <div class="card-actions w-full">
-                <button class="btn btn-primary">Add to Cart</button>
+                <button onclick="addItemToCart(this)" id="add-btn" class="btn btn-primary">Add to Cart</button>
               </div>
             </div>
           </div>
-          <!-- 1st card:  -->
+          <!-- 2st card:  -->
           <div class="card bg-base-100 shadow-xl">
             <figure class="px-10 pt-10">
               <img src="./images/flower-img (2).png" alt="" class="box-img" />
             </figure>
             <div class="card-body">
-              <h2 class="card-title text-2xl font-bold">Snow white</h2>
+              <h2 class="card-title text-2xl font-bold">Kala Fool</h2>
               <p>I love flowers. It is the scent of man's life.</p>
 
-              <p>Price: <span>99</span>$</p>
+              <p>Price: <span>10.50</span>$</p>
               <div class="card-actions w-full">
-                <button class="btn btn-primary">Add to Cart</button>
+                <button onclick="addItemToCart(this)" class="btn btn-primary">Add to Cart</button>
               </div>
             </div>
           </div>
-          <!-- 1st card:  -->
+          <!-- 3st card:  -->
           <div class="card bg-base-100 shadow-xl">
             <figure class="px-10 pt-10">
               <img src="./images/flower-img (3).png" alt="" class="box-img" />
             </figure>
             <div class="card-body">
-              <h2 class="card-title text-2xl font-bold">Snow white</h2>
+              <h2 class="card-title text-2xl font-bold">Gada Fool</h2>
               <p>I love flowers. It is the scent of man's life.</p>
 
-              <p>Price: <span>49</span>$</p>
+              <p>Price: <span>20</span>$</p>
               <div class="card-actions w-full">
-                <button class="btn btn-primary">Add to Cart</button>
+                <button onclick="addItemToCart(this)" class="btn btn-primary">Add to Cart</button>
               </div>
             </div>
           </div>
-          <!-- 1st card:  -->
+          <!-- 4st card:  -->
           <div class="card bg-base-100 shadow-xl">
             <figure class="px-10 pt-10">
               <img src="./images/flower-img (4).png" alt="" class="box-img" />
             </figure>
             <div class="card-body">
-              <h2 class="card-title text-2xl font-bold">Snow white</h2>
+              <h2 class="card-title text-2xl font-bold">Pink Fool</h2>
               <p>I love flowers. It is the scent of man's life.</p>
 
-              <p>Price: <span>55.50</span>$</p>
+              <p>Price: <span>20.50</span>$</p>
               <div class="card-actions w-full">
-                <button class="btn btn-primary">Add to Cart</button>
+                <button onclick="addItemToCart(this)" class="btn btn-primary">Add to Cart</button>
               </div>
             </div>
           </div>
-          <!-- 1st card:  -->
+          <!-- 5st card:  -->
           <div class="card bg-base-100 shadow-xl">
             <figure class="px-10 pt-10">
               <img src="./images/flower-img (5).png" alt="" class="box-img" />
             </figure>
             <div class="card-body">
-              <h2 class="card-title text-2xl font-bold">Snow white</h2>
+              <h2 class="card-title text-2xl font-bold">Red Fool</h2>
               <p>I love flowers. It is the scent of man's life.</p>
 
-              <p>Price: <span>99</span>$</p>
+              <p>Price: <span>10</span>$</p>
               <div class="card-actions w-full">
-                <button class="btn btn-primary">Add to Cart</button>
+                <button onclick="addItemToCart(this)" class="btn btn-primary">Add to Cart</button>
               </div>
             </div>
           </div>
-          <!-- 1st card:  -->
+          <!-- 6st card:  -->
           <div class="card bg-base-100 shadow-xl">
             <figure class="px-10 pt-10">
               <img src="./images/flower-img (6).png" alt="" class="box-img" />
             </figure>
             <div class="card-body">
-              <h2 class="card-title text-2xl font-bold">Snow white</h2>
+              <h2 class="card-title text-2xl font-bold">Ami Fool</h2>
               <p>I love flowers. It is the scent of man's life.</p>
 
-              <p>Price: <span>105.75</span>$</p>
+              <p>Price: <span>20.50</span>$</p>
               <div class="card-actions w-full">
-                <button class="btn btn-primary">Add to Cart</button>
+                <button onclick="addItemToCart(this)" class="btn btn-primary">Add to Cart</button>
               </div>
             </div>
           </div>
-          <!-- 1st card:  -->
+          <!-- 7st card:  -->
           <div class="card bg-base-100 shadow-xl">
             <figure class="px-10 pt-10">
               <img src="./images/flower-img (7).png" alt="" class="box-img" />
             </figure>
             <div class="card-body">
-              <h2 class="card-title text-2xl font-bold">Snow white</h2>
+              <h2 class="card-title text-2xl font-bold">Tumi Fool</h2>
               <p>I love flowers. It is the scent of man's life.</p>
 
-              <p>Price: <span>99</span>$</p>
+              <p>Price: <span>20</span>$</p>
               <div class="card-actions w-full">
-                <button class="btn btn-primary">Add to Cart</button>
+                <button onclick="addItemToCart(this)" class="btn btn-primary">Add to Cart</button>
               </div>
             </div>
           </div>
@@ -137,15 +137,22 @@
       </div>
       <!-- right side: Area calculation part -->
       <div>
-        <div class="w-full p-3 border border-solid border-black">
+        <div id="cart-container" class="w-full px-7 min-h-[500px] border border-solid border-black text-center">
           <h3 class="min-w-max font-semibold text-2xl underline text-center">SHOPPING CART</h3>
+
+          <div id="cart-items" class="text-xl">
+            Items selected:
+            <ul id="cart-ul">
+            </ul>
+          </div>
+          <h2 class="text-xl font-semibold">Total Price: <span id="cart-price-total">00</span>$</h2>
         </div>
       </div>
     </section>
     <!-- main body Ends-->
 
   </main>
-
+  <script src="cart.js"></script>
 </body>
 
 </html>
